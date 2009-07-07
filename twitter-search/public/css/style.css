@@ -1,0 +1,59 @@
+body {
+	font-family: Geneva;
+}
+#wrapper {
+	border: 1px solid #ccc;
+	width: 600px;
+	padding: 5px;
+	margin: 0 auto;
+}
+
+.entry {
+	border: 1px solid #ccc;
+	margin-bottom: 5px;
+}
+
+.info {
+	word-wrap: break-word;
+	overflow: auto;
+	background: #ccc;
+	padding: 5px;
+}
+
+.user, .date {
+	font-size: 10px;
+	padding-top: 5px;
+}
+
+h5, p, fieldset {
+	padding: 0;
+	margin: 0;
+	border: none;
+} 
+
+.left {
+	float: left;
+}
+
+.right {
+	float: right;
+}
+
+.content {
+	clear: both;
+	padding: 5px;
+	font-size: 0.8em;
+}
+
+input {
+	border: 1px solid #ccc;
+	font-size: 120%;
+}
+
+.text {
+	width: 512px;
+}
+
+.form {
+	margin-bottom: 10px;
+}

@@ -1,0 +1,11 @@
+<?r @entries.each do |entry| ?>
+<div class="entry">
+  <div class="info">
+    <h5>#{entry.title}</h5>
+    <span class="left user">#{entry.author}</span><span class="right date">#{entry.published.gmtime}</span>
+  </div>
+  <div class="content">
+    <p>#{entry.content}</p>
+  </div>
+</div>
+<?r end unless @entries.nil? ?>
